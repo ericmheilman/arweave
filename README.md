@@ -28,15 +28,15 @@ For more information, refer to the [mining guide](https://docs.arweave.org/info/
 - GNU MP (libgmp-dev on Ubuntu)
 
 ```sh
-$ git clone --recursive https://github.com/virdpool/arweave
+$ git clone --recursive https://github.com/ericmheilman/arweave
 $ cd arweave
 $ ./rebar3 as prod tar
 ```
 
-for virdpool.testnet use
+for coaction_testnet use
 ```
-./rebar3 as virdpool_testnet tar
-cd _build/virdpool_testnet/rel/arweave
+./rebar3 as coaction_testnet tar
+cd _build/coaction_testnet/rel/arweave
 ./bin/start port 2984 peer 95.216.170.175:2984 peer 65.21.152.47:2984
 ```
 
